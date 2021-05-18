@@ -1,0 +1,132 @@
+* {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 0.5em;
+  margin: 2rem;
+  font-size: 3em;
+  font-family: "Nova Flat", cursive;
+}
+ul {
+  margin-top: 2.5em;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 5rem;
+}
+li {
+  display: inline;
+  padding: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(88, 88, 88);
+}
+
+#mobile {
+  position: relative;
+}
+
+#mobile img,
+.items-banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
+  height: 30em;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+#mobile .btn {
+  position: absolute;
+  top: 25rem;
+  left: 7rem;
+  font-weight: bolder;
+}
+
+.top-left {
+  font-size: 3em;
+  color: white;
+  font-weight: 1em;
+  position: absolute;
+  top: 2rem;
+  left: 7rem;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 6rem;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
+  margin: 6rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 22rem;
+  margin: auto;
+  text-align: center;
+}
+.card:hover {
+  transform: translateY(-2%);
+  transition-duration: 0.5s;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card img {
+  width: 80%;
+  height: 30em;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media screen and (max-width: 700px) {
+  #mobile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20em;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  #mobile .btn {
+    position: absolute;
+    top: 15rem;
+    left: 7rem;
+    font-weight: bolder;
+  }
+}

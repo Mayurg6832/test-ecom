@@ -1,0 +1,45 @@
+* {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(88, 88, 88);
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 0.5em;
+  margin: 2rem;
+  font-size: 3em;
+  font-family: "Nova Flat", cursive;
+  margin-bottom: 5rem;
+}
+
+h4 {
+  text-align: center;
+}
+.check {
+  margin-top: 8rem;
+}
+
+input {
+  margin: 1.3rem;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgba(109, 109, 109, 0.466);
+  font-size: 1.3rem;
+}
+input:focus {
+  transition-duration: 0.3s;
+  border-color: rgb(0, 0, 0);
+}
+
+select {
+  outline: 0;
+  border-width: 0 0 2px;
+}

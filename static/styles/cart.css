@@ -1,0 +1,33 @@
+* {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(88, 88, 88);
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 0.5em;
+  margin: 2rem;
+  font-size: 3em;
+  font-family: "Nova Flat", cursive;
+}
+
+h4 {
+  text-align: center;
+}
+.cart-items li {
+  list-style: none;
+  text-align: center;
+}
+
+h3 {
+  display: inline-flex;
+  text-align: center;
+}

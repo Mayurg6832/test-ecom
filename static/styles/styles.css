@@ -167,4 +167,16 @@ section {
     margin: auto;
     text-align: center;
   }
+  .banner img {
+    height: 10em !important;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+  }
 }

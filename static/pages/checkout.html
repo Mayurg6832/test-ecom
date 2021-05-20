@@ -28,56 +28,49 @@
     <title>Checkout</title>
   </head>
   <body>
-    <a href="../../index.html"><h2>Cobo</h2></a>
-    <a href="../pages/cart.html"
-      ><i
-        class="fas fa-shopping-bag fa-lg bag"
-        style="position: absolute; top: 3rem; right: 2rem; width: 3rem"
-      ></i>
-    </a>
-    <h4>Checkout</h4>
-    <div class="row justify-content-center check">
-      <div class="col-4">
-        <u><h3>Account</h3></u>
-        <input type="text" class="text-line" placeholder="email" size="50" />
-        <input
-          type="text"
-          class="text-line"
-          placeholder="phone number"
-          size="50"
-        />
-        <u><h3>Address</h3></u>
-        <input type="text" class="text-line" placeholder="address" size="50" />
-        <input type="text" class="text-line" placeholder="city" size="50" />
-        <input type="text" class="text-line" placeholder="state" size="50" />
-      </div>
-      <div class="col-4">
-        <u><h3>Payment Detail</h3></u>
-        <input
-          type="text"
-          class="text-line"
-          placeholder="card name"
-          size="50"
-        />
-        <input
-          type="text"
-          class="text-line"
-          placeholder="card number"
-          size="50"
-        />
-        <label for="expiry" style="font-weight: 1em">Expiry:</label>
-        <input type="date" name="expiry" id="expiry" />
-
-        <div class="d-flex justify-content-evenly">
-          <h3>Total:</h3>
-          <h5>₹ 3,14,790</h5>
+    <div class="container">
+      <a href="../../index.html"><h2>Cobo</h2></a>
+      <a href="../pages/cart.html"
+        ><i
+          class="fas fa-shopping-bag fa-lg bag"
+          style="position: absolute; top: 3rem; right: 2rem; width: 3rem"
+        ></i>
+      </a>
+      <h4>Checkout</h4>
+      <div class="row justify-content-center check">
+        <div class="col-sm-12 col-md-6">
+          <u><h3>Account</h3></u>
+          <input type="text" class="text-line" placeholder="email" />
+          <input type="text" class="text-line" placeholder="phone number" />
+          <u><h3>Address</h3></u>
+          <input type="text" class="text-line" placeholder="address" />
+          <input type="text" class="text-line" placeholder="city" />
+          <input type="text" class="text-line" placeholder="state" />
         </div>
-        <div class="text-center">
-          <button type="button" class="btn btn-outline-dark btn-lg">
-            Pay now
-          </button>
+        <div class="col-sm-12 col-md-6">
+          <u><h3>Payment Detail</h3></u>
+          <input type="text" class="text-line" placeholder="card name" />
+          <input type="text" class="text-line" placeholder="card number" />
+          <label for="expiry" style="font-weight: 1em">Expiry:</label>
+          <input type="date" name="expiry" id="expiry" />
+
+          <div class="d-flex justify-content-evenly">
+            <h3>Total:</h3>
+            <h5>₹ 3,14,790</h5>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-outline-dark btn-lg">
+              Pay now
+            </button>
+          </div>
         </div>
       </div>
     </div>
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        Created by Mayur Goyal:
+        <a class="text-dark" href="https://github.com/Mayurg6832">GitHub</a>
+      </div>
+    </footer>
   </body>
 </html>

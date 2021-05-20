@@ -31,3 +31,9 @@ h3 {
   display: inline-flex;
   text-align: center;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

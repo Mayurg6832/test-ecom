@@ -131,7 +131,7 @@ section {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   #mobile img {
     display: block;
     margin: 0;
